@@ -1,7 +1,15 @@
 # Rails + Bun + Vite + Tailwind POC application
 
-Main features:
-- No asset pipeline
-- Bun
-- Vite (running through Bun)
-- TailwindCSS (with Flowbite)
+
+Features:
+* [x] No asset pipeline
+* [x] Hot reloading
+
+Tooling:
+* [x] Bun
+* [x] Vite (running through Bun)
+* [x] TailwindCSS (with Flowbite)
+
+TODO:
+* [ ] Add StimulusJS
+* [ ] Add Turbo
