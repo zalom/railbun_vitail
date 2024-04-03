@@ -1,4 +1,4 @@
-# Rails + Bun + Vite + Tailwind POC application
+# Rails + Bun + Vite + Tailwind + StimulusJS + Turbo POC application
 
 ### POC:
 - Part 1: Bun + Vite + TailwindCSS (done)
