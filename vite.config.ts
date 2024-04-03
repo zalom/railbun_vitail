@@ -12,4 +12,11 @@ export default defineConfig({
       }
     ),
   ],
+  root: "./app/assets",
+  build: {
+    manifest: true,
+    rollupOptions: {
+      input: "/app/javascript/entrypoints/application.js"
+    }
+  }
 })
