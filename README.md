@@ -12,7 +12,7 @@
 * [x] Bun (instead of Node)
 * [x] Vite (running through Bun; handling assets)
 * [x] TailwindCSS (with Flowbite)
-* [ ] StimulusJS
+* [x] StimulusJS
 * [ ] Turbo
 
 ### Start app
