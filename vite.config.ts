@@ -6,7 +6,7 @@ export default defineConfig({
     ViteRails(
       {
         fullReload: {
-          additionalPaths: ["config/routes.rb", "app/views/**/*"],
+          additionalPaths: ["config/routes.rb", "app/views/**/*", "app/frontend/javascript/**/*"],
           delay: 200
         },
       }
