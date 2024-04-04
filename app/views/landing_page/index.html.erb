@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/flowbite@1.6.0/dist/flowbite.min.css" rel="stylesheet">
-</head>
-<body>
-
 <!-- Hero Section -->
 <section class="bg-white dark:bg-gray-900 text-center">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
@@ -65,6 +54,19 @@
 </section>
 
 
+<!-- StimulusJS POC Section -->
+<section class="bg-white dark:bg-gray-900 mt-5">
+  <div data-controller="hello">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 flex flex-col py-10">
+      <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Hello<span data-hello-target="output"></span>!</h1>
+      <div>
+        <input data-hello-target="name" type="text"></input>
+        <button data-action="click->hello#greet" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Greet</button>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Feature Section -->
 <section class="bg-white dark:bg-gray-900 mt-5">
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 flex flex-col py-10">
@@ -119,6 +121,3 @@
   </div>
 </section>
 
-<script src="https://cdn.jsdelivr.net/npm/flowbite@1.6.0/dist/flowbite.min.js"></script>
-</body>
-</html>
